@@ -1,2 +1,2 @@
 # Wheek Wheek
-Lapinou is cute
+Lapinou
