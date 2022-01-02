@@ -1,1 +1,9 @@
 ErrorDocument 404 /404.html
+AuthName "Restricted Area"
+AuthType Basic
+AuthUserFile 
+AuthGroupFile /dev/null;
+
+<Files index.html>
+require valid-user
+</Files>
