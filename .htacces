@@ -1,0 +1,8 @@
+AuthName "Restricted Area"
+AuthType Basic
+AuthUserFile 
+AuthGroupFile /dev/null;
+
+<Files test.html>
+require valid-user
+</Files>
